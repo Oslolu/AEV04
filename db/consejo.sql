@@ -1,0 +1,7 @@
+CREATE DATABASE IF NOT EXISTS consejodb;
+USE consejodb;
+
+CREATE TABLE IF NOT EXISTS consejos (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    consejo TEXT NOT NULL
+);
